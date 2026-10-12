@@ -7,9 +7,11 @@ print(f"The value of num2 is {num2}, and it is of the type {type(num2)}.")
 print(f"The value of num3 is {num3}, and it is of the type {type(num3)}.")
 print(f"The sum of num1 and num2 is {num1 + num2}.")
 print(f"The sum of all three numbers is {num1 + num2 + num3}.")
-result = (num1+ num2) * num3
-print(f"The result of (num1 + num2) * num3 is {result}.")
-num1 < num2
-num2 > num3
-num3 < num1
-print(f"Is num1 less than num2? {num1 < num2}")
+result = num1 + num2 * num3
+print(f"The result of num1 + num2 * num3 is {result}.")
+result2 = (num1 + num2) * num3
+print(f"The result of (num1 + num2) * num3 is {result2}.")
+print(f"The result of (num1 > num2) is {num1 > num2}.")
+print(f"The result of (num2 < num3) is {num2 < num3}.")
+print(f"The result of (num3 == num1) is {num3 == num1}.")
+print(f"num1 is less than num2: {num1 < num2}")
